@@ -20,8 +20,7 @@
 // saias!:false (devido ao ponto de exclamação)
 
 // Salve o tricolor paulista: false
-exports.palindromo = (array)=>{
-  //var re = /[\W_]/g;  
+exports.palindromo = (array)=>{ 
   let arrayInicial = array.toLowerCase().split('').join('').replace(/\s/g, '');
   console.log(arrayInicial);
   let arrayInvertido = arrayInicial.split('').reverse().join(''); 
